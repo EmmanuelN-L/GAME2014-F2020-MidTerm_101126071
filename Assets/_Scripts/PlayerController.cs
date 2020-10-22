@@ -1,4 +1,14 @@
-﻿using System.Collections;
+﻿/*
+Source file name:PlayerContoller.cs
+Student Name:Emmanuel Nofuente-Loblack
+Student ID:101126071
+Date Last Modified: October 21st, 2020, 9:48 PM
+Program Description:Player controller allows the user to control the player ship to move up and down. Also shoots on it's own.
+Revision History: Added vertical speed and vertical boundary for the players movement so that they dont go off the screen.
+Changed the check bounds and move functions to work for landscape mode
+
+ */
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEditor;
